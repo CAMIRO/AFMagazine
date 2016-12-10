@@ -688,7 +688,7 @@ nav.tn-nav-wrap {
   .home-wrap header .header-position {
     position: fixed;
     top: 30px;
-    left: 0px;
+    left: 0;
     bottom: 30px;
     width: 135px;
     display: -webkit-box;
@@ -723,7 +723,7 @@ nav.tn-nav-wrap {
   .home-wrap header .site-nav ul {
     list-style: none;
     margin: 20px 0;
-    padding: 0 15px 0 0;
+    padding: 0 20px 0 0;
     text-align: right; }
   .home-wrap header .site-nav li {
     margin-bottom: 10px; }
@@ -732,7 +732,7 @@ nav.tn-nav-wrap {
   .home-wrap header .email-link {
     display: block;
     text-align: right;
-    padding-right: 15px; }
+    padding-right: 20px; }
   .home-wrap header .mobile-nav-toggle {
     display: none;
     width: 50px;
@@ -1280,7 +1280,8 @@ section.notes {
         background: white;
         color: #ba9e44;
         font-size: 24px;
-        padding: 0 15px; }
+        padding: 0 15px;
+        -webkit-appearance: none; }
     section.notes .form-display label {
       position: absolute;
       z-index: 2;
